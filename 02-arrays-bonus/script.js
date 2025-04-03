@@ -31,10 +31,12 @@ console.log('-------------------------------------------------------');
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
 console.log('4.-----------------------------------------------------')
-
-const isFabioPresent = null;
+const isFabioPresent = teachers.includes('Fabio');
+console.log(isFabioPresent)
 console.log('-------------------------------------------------------');
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
+console.log('5.-----------------------------------------------------')
+
 const teachersString = null;
 console.log('-------------------------------------------------------');
