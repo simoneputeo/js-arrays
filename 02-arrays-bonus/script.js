@@ -11,7 +11,8 @@ const teachers = [
 // 1. Inverti l'ordine degli insegnanti nell'array teachers
 // e salva il risultato nella variabile reversedTeachers
 console.log('1.-----------------------------------------------------')
-const reversedTeachers = null;
+const reversedTeachers = teachers.reverse();
+console.log(reversedTeachers)
 console.log('-------------------------------------------------------');
 
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
@@ -38,5 +39,6 @@ console.log('-------------------------------------------------------');
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
 console.log('5.-----------------------------------------------------')
 
-const teachersString = null;
+const teachersString = teachers.join(", ");
+console.log(teachersString)
 console.log('-------------------------------------------------------');
